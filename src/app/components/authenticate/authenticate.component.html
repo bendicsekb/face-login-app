@@ -1,0 +1,13 @@
+<div fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="10px" fxLayout.gt-sm="row wrap" fxLayoutAlign.gt-sm="space-around center" fxLayoutGap.gt-sm="15px">
+    <div fxFlex="60">
+        <mat-card>
+            <mat-card-content>
+                <app-user-camera #userCamera (loaded)="onCameraInit($event)"></app-user-camera>
+            </mat-card-content>
+        </mat-card>
+    </div>
+
+    <div fxFlex>
+        <router-outlet (activate)='onActivate($event)'></router-outlet>
+    </div>
+</div>

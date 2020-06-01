@@ -1,0 +1,11 @@
+.hidden {
+    display: none;
+}
+
+mat-card {
+    margin: 5px;
+}
+
+.container {
+    width: max-content;
+}

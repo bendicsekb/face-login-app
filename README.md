@@ -1,5 +1,9 @@
 # FaceLoginApp
 
+Author: Bendicsek Márton Bendegúz
+
+This project is an assignment for BME-AUT Client Side Technologies course (https://www.aut.bme.hu/Course/ENVIAUAC02)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
 
 ## Development server

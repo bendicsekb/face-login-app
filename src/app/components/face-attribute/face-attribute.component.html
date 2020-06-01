@@ -1,0 +1,25 @@
+<h2 mat-dialog-title>Face Attributes</h2>
+<mat-dialog-content class="mat-typography">
+    <div fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="15px">
+        <div fxLayout="column" fxLayoutAlign="start end" fxLayoutGap="5px">
+            <p>Smile: {{data.user.faceAttributes.smile}}</p>
+            <p>Gender: {{data.user.faceAttributes.gender}}</p>
+            <p>Age: {{data.user.faceAttributes.age}}</p>
+            <p> Moustache: {{data.user.faceAttributes.facialHair.moustache}}</p>
+            <p> Beard: {{data.user.faceAttributes.facialHair.beard}}</p>
+            <p> Sideburns: {{data.user.faceAttributes.facialHair.sideburns}} </p>
+
+            <p> Glasses: {{data.user.faceAttributes.glasses}}</p>
+        </div>
+        <div class="container">
+            <img #image [src]="_DomSanitizer.bypassSecurityTrustUrl(data.picture)">
+            <canvas #canvas></canvas>
+        </div>
+
+    </div>
+
+
+</mat-dialog-content>
+<mat-dialog-actions align="center">
+    <button mat-button mat-dialog-close>Cancel</button>
+</mat-dialog-actions>

@@ -1,0 +1,17 @@
+{
+    "version": "0.1.0",
+    "tasks": [
+        {
+            "taskName": "ng open",
+            "command": "ng",
+            "args": [
+                "serve",
+                "-o"
+            ],
+            "showOutput": "always",
+            "isBuildCommand": true,
+            "isShellCommand": true,
+            "isBackground": true,
+        }
+    ]
+}

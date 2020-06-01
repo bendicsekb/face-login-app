@@ -1,0 +1,12 @@
+.container {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+img,
+canvas {
+    position: absolute;
+    width: 200px;
+    height: auto;
+}
